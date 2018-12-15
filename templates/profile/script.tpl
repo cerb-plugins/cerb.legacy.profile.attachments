@@ -4,7 +4,7 @@ $(function() {
 	var $toolbar = $subpage.find('form.toolbar');
 	
 	var $new_button = $('<button type="button"/>')
-		.attr('title','{'cerb.legacy.profile.attachments.zip.download_all'|devblocks_translate}')
+		.attr('title','{'cerb.legacy.profile.attachments.download_all'|devblocks_translate}')
 		.append($('<span class="glyphicons glyphicons-paperclip"/>'))
 		;
 		

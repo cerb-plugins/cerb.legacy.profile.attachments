@@ -6,7 +6,7 @@
 
 		<!-- Plugin Strings -->
 
-		<tu tuid='cerb.legacy.profile.attachments.zip.download_all'>
+		<tu tuid='cerb.legacy.profile.attachments.download_all'>
 			<tuv xml:lang="en_US"><seg>Download all attachments (.zip)</seg></tuv>
 		</tu>
 		

@@ -1,6 +1,6 @@
 <?php
 class ProfileScript_ProfileAttachmentsZip extends Extension_ContextProfileScript {
-	const ID = 'cerb.legacy.profile.attachments.zip.script';
+	const ID = 'cerb.legacy.profile.attachments.script';
 	
 	function renderScript($context, $context_id) {
 		$tpl = DevblocksPlatform::services()->template();
@@ -8,12 +8,12 @@ class ProfileScript_ProfileAttachmentsZip extends Extension_ContextProfileScript
 		$tpl->assign('page_context', $context);
 		$tpl->assign('page_context_id', $context_id);
 		
-		$tpl->display('devblocks:cerb.legacy.profile.attachments.zip::profile/script.tpl');
+		$tpl->display('devblocks:cerb.legacy.profile.attachments::profile/script.tpl');
 	}
 };
 
 class Controller_AttachmentsAsZip extends DevblocksControllerExtension {
-	const ID = 'cerb.legacy.profile.attachments.zip.controller';
+	const ID = 'cerb.legacy.profile.attachments.controller';
 	
 	/*
 	 * Request Overload

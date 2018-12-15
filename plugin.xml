@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.devblocks.com/schema/plugin.xsd">
-	<id>cerb.legacy.profile.attachments.zip</id>
+	<id>cerb.legacy.profile.attachments</id>
 	<name>Legacy Profile Attachments ZIP Download</name>
 	<description>Download all of the attachments on a record as a single ZIP.</description>
 	<author>Webgroup Media, LLC.</author>
@@ -27,7 +27,7 @@
 		<!--  Controllers -->
 		
 		<extension point="devblocks.controller">
-			<id>cerb.legacy.profile.attachments.zip.controller</id>
+			<id>cerb.legacy.profile.attachments.controller</id>
 			<name>Download ZIP Controller</name>
 			<class>
 				<file>api/App.php</file>
@@ -41,7 +41,7 @@
 		<!-- Profile Script -->
 		
 		<extension point="cerberusweb.ui.context.profile.script">
-			<id>cerb.legacy.profile.attachments.zip.script</id>
+			<id>cerb.legacy.profile.attachments.script</id>
 			<name>Profile Attachments Download Script</name>
 			<class>
 				<file>api/App.php</file>
